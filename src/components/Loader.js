@@ -2,7 +2,7 @@ import React from 'react';
 import {Stack} from '@mui/material';
 import {InfinitySpin} from 'react-loader-spinner';
 
-export const Loader = ()=>{
+const Loader = ()=>{
 	return (
 		<Stack 
 		direction="row"
@@ -15,3 +15,5 @@ export const Loader = ()=>{
 		</Stack>
 	)
 }
+
+export default Loader;

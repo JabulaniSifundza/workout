@@ -2,7 +2,7 @@ import React from 'react';
 import {Stack, Typography} from '@mui/material';
 import Icon from '../assets/icons/gym.png'
 
-export const BodyPart = ({item, setBodyPart, bodyPart})=>{
+const BodyPart = ({item, setBodyPart, bodyPart})=>{
 	return (
 		<Stack 
 		onClick={()=>{
@@ -38,3 +38,5 @@ export const BodyPart = ({item, setBodyPart, bodyPart})=>{
 	)
 
 }
+
+export default BodyPart;
